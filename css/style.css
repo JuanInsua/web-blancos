@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+h2{
+    padding: 20px;
+}
+.c-item{
+    height: 360px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.product-card{
+    transition:0.5s ;
+}
+.product-card:hover{
+    transform: translateX(-5px) ;
+    -webkit-box-shadow: 13px 12px 6px -7px #000000; 
+    box-shadow: 13px 12px 6px -7px #000000;
+    
+}
+.product-card img{
+    width: 480px;
+    height: 220px;
+}
